@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1644682562 source:c:\william\git\c++2\battleship\main.cpp
+	<iostream>
+	"SimpleGame.h"
+
+1644682658 source:c:\william\git\c++2\battleship\src\simplegame.cpp
+	<iostream>
+	"SimpleGame.h"
+	"SimpleShip.h"
+	<random>
+
+1644630232 c:\william\git\c++2\battleship\include\simplegame.h
+	<string>
+	"SimpleHelper.h"
+
+1644682676 source:c:\william\git\c++2\battleship\src\simplehelper.cpp
+	"SimpleHelper.h"
+	"iostream"
+
+1644682562 c:\william\git\c++2\battleship\include\simplehelper.h
+	<string>
+
+1644630913 source:c:\william\git\c++2\battleship\src\simpleship.cpp
+	<iostream>
+	"SimpleShip.h"
+
+1644629027 c:\william\git\c++2\battleship\include\simpleship.h
+	<string>
+
+1644682562 source:c:\william\git\c++2\battleship\src\main.cpp
+	<iostream>
+	"SimpleGame.h"
+
