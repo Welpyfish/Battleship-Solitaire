@@ -5,7 +5,6 @@
 
 SimpleGame::SimpleGame()
 {
-    m_helper = SimpleHelper();
 }
 
 SimpleGame::~SimpleGame()
