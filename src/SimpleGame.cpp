@@ -5,7 +5,7 @@
 
 SimpleGame::SimpleGame()
 {
-
+    m_helper = SimpleHelper();
 }
 
 SimpleGame::~SimpleGame()
@@ -23,12 +23,13 @@ void SimpleGame::RunGame()
     bool isAlive = true;
 
     while (isAlive){
-        std::string guess = m_helper.GetUserInput("Enter a number");
+        std::string guess = m_helper.GetUserInput("Enter a number from 1-7");
         std::string result = ship.CheckYourself(guess);
         numOfGuesses++;
         if(result == "kill"){
             isAlive = false;
-            std::cout << "You took " + std::to_string(numOfGuesses) + " guesses";
+            std::cout << "You win!" << std::endl;
+            std::cout << "You took " + std::to_string(numOfGuesses) + " guesses" << std::endl;
             break;
         }
     }

@@ -24,10 +24,11 @@ std::string SimpleShip::CheckYourself(std::string stringGuess)
     int guess = std::stoi(stringGuess);
     for(int i=0; i< m_numOfCells; i++)
     {
-        if ( *(m_pLocationCells+i) == guess)
+        if (*(m_pLocationCells+i) != -1 && *(m_pLocationCells+i) == guess)
         {
             result = "hit";
             m_numOfHits++;
+            *(m_pLocationCells+i) = -1;
             break;
         }
     }
