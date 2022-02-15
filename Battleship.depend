@@ -31,9 +31,10 @@
 	<iostream>
 	"SimpleGame.h"
 
-1644797875 source:c:\william\git\c++2\shipfind\src\main.cpp
+1644956998 source:c:\william\git\c++2\shipfind\src\main.cpp
 	<iostream>
 	"SimpleGame.h"
+	"ShipGame2D.h"
 
 1644630232 c:\william\git\c++2\shipfind\include\simplegame.h
 	<string>
@@ -59,8 +60,21 @@
 	"SimpleShip.h"
 	<random>
 
-1644799953 source:c:\william\git\c++2\shipfind\src\battleship.cpp
+1644956445 source:c:\william\git\c++2\shipfind\src\battleship.cpp
 	"BattleShip.h"
 
-1644801109 c:\william\git\c++2\shipfind\include\battleship.h
+1644889383 c:\william\git\c++2\shipfind\include\battleship.h
+
+1644888541 c:\william\git\c++2\shipfind\include\shipgame2d.h
+	<string>
+	"SimpleHelper.h"
+	"BattleShip.h"
+
+1644957014 source:c:\william\git\c++2\shipfind\src\shipgame2d.cpp
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<random>
+	"ShipGame2D.h"
+	"BattleShip.h"
 

@@ -34,13 +34,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/BattleShip.h" />
+		<Unit filename="include/ShipGame2D.h" />
 		<Unit filename="include/SimpleGame.h" />
 		<Unit filename="include/SimpleHelper.h" />
 		<Unit filename="include/SimpleShip.h" />
-		<Unit filename="src/main.cpp" />
+		<Unit filename="src/BattleShip.cpp" />
+		<Unit filename="src/ShipGame2D.cpp" />
 		<Unit filename="src/SimpleGame.cpp" />
 		<Unit filename="src/SimpleHelper.cpp" />
 		<Unit filename="src/SimpleShip.cpp" />
+		<Unit filename="src/main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

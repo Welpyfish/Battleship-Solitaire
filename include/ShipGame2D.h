@@ -9,9 +9,9 @@ class ShipGame2D
     public:
         ShipGame2D(int numOfShips);
         virtual ~ShipGame2D();
+        void RunGame();
 
     protected:
-        void RunGame();
         void SetupMap();
         void SetupShip(int numOfShips);
         location_t GetLocation();

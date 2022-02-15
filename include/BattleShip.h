@@ -1,8 +1,10 @@
 #ifndef BATTLESHIP_H
 #define BATTLESHIP_H
 
+enum E_BATTLE_STATUS { MISS, HIT, KILL };
 
 struct position_t {
+  bool isHit;
   int x;
   int y;
 };
@@ -18,12 +20,13 @@ class BattleShip
         virtual ~BattleShip();
 
         void SetLocation(location_t location);
+        E_BATTLE_STATUS CheckYourself(position_t guess);
+        bool m_isDead;
 
     protected:
 
     private:
         location_t m_location;
-        bool m_isHit;
 };
 
 #endif // BATTLESHIP_H
