@@ -18,6 +18,8 @@ void Intro1D()
     std::cout << "* Goal is to sink the ship by   *" << std::endl;
     std::cout << "* guessing its location         *" << std::endl;
     std::cout << "* (number from 1-7)             *" << std::endl;
+    std::cout << "* The ship is 3 points in a     *" << std::endl;
+    std::cout << "* line                          *" << std::endl;
     std::cout << "*********************************" << std::endl;
 }
 
@@ -29,6 +31,8 @@ void Intro2D()
     std::cout << "* Goal is to sink the ships by  *" << std::endl;
     std::cout << "* guessing their locations      *" << std::endl;
     std::cout << "* (x, y) from 1-5               *" << std::endl;
+    std::cout << "* The ships are 3 points in a   *" << std::endl;
+    std::cout << "* line (horizontal or vertical) *" << std::endl;
     std::cout << "*********************************" << std::endl;
 }
 
